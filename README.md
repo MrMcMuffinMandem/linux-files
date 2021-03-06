@@ -39,6 +39,36 @@ set cindent
 set smartindent
 ```
 
----
+***
+
+## Here are my plugins:
+
+***
 
 
+```vim
+call plug#begin()
+	Plug 'vim-airline/vim-airline' " looks cool and it's useful
+	Plug 'vim-airline/vim-airline-themes'
+	Plug 'rafi/awesome-vim-colorschemes' " More colorschemes
+    Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}} " Autocompletion and much more
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fzf is a fuzzy finder
+    Plug 'junegunn/fzf.vim'
+call plug#end()
+```
+
+for airline to work you need this setting `let g:airline_powerline_fonts=1`
+
+***
+
+## Personal settings
+
+```vim
+inoremap kj <Esc> "remap kj and jk to escape 
+inoremap jk <Esc> "you can remap this to any keys you want
+xnoremap K :move '<-2<CR>gv=gv '"(exclude the closing ' ) remap K for moving blocks in visual mode'
+xnoremap J :move '>+1<Cr>gv=gv '"(exclude the closing ' ) remap K for moving blocks in visual mode'
+nnoremap <silent> :: :Files<CR> "open fuzzy finder faster
+```
+
+***
