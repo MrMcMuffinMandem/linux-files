@@ -10,7 +10,8 @@
 
 ```vim
 syntax on
-
+```
+```vim
 set noexpandtab
 set errorbells
 set smarttab
