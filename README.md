@@ -62,7 +62,6 @@ call plug#end()
 >* [rafi-colorschemes](https://github.com/rafi/awesome-vim-colorschemes)
 >* [coc.nvim](https://github.com/neoclide/coc.nvim)
 >* [fzf.vim](https://github.com/junegunn/fzf.vim)
-
 >for [vim-airline](https://github.com/vim-airline/vim-airline) to work you need to add this setting: `let g:airline_powerline_fonts=1`
 
 ***
