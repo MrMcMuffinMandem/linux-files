@@ -8,7 +8,7 @@
 
 ***
 
-```
+```vim
 syntax on
 
 set noexpandtab
