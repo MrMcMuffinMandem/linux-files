@@ -41,10 +41,10 @@ set smartindent
 
 ***
 
-## Here are my plugins:
+### Here are my plugins:
+>I use [vim-plug](https://github.com/junegunn/vim-plug)
 
 ***
-
 
 ```vim
 call plug#begin()
@@ -57,11 +57,17 @@ call plug#begin()
 call plug#end()
 ```
 
-for airline to work you need this setting `let g:airline_powerline_fonts=1`
+>Plugins:
+>* [vim-airline](https://github.com/vim-airline/vim-airline)
+>* [rafi-colorschemes](https://github.com/rafi/awesome-vim-colorschemes)
+>* [coc.nvim](https://github.com/neoclide/coc.nvim)
+>* [fzf.vim](https://github.com/junegunn/fzf.vim)
+
+>for [vim-airline](https://github.com/vim-airline/vim-airline) to work you need to add this setting: `let g:airline_powerline_fonts=1`
 
 ***
 
-## Personal settings
+### Personal settings
 
 ```vim
 inoremap kj <Esc> "remap kj and jk to escape 
