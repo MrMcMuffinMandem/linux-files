@@ -1,10 +1,10 @@
 ***
 
-# Here is my vimrc:
+# Here is my vimrc <img src="https://download.logo.wine/logo/Vim_(text_editor)/Vim_(text_editor)-Logo.wine.png" width="45" height="35" alt=""> 
 
 ***
 
-### here is the minimal configuration
+### Absolute essential configurations
 
 ***
 
